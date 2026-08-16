@@ -1,0 +1,28 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color:#333;
+}
+
+
+h2
+{
+background-color: #215171; 
+color: white;
+padding:18px 20px;
+}
+
+
+fieldset
+{ border:2px solid #B0D6E3;
+    border-radius:10px;
+   box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h5{
+    color: black;
+}
+a{
+    color: #215171;
+   
+}

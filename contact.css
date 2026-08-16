@@ -1,0 +1,69 @@
+.body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+   
+}
+
+fieldset
+{
+    background-color: #215171;
+    color: white;
+     padding: 10px;
+
+}
+h4
+{
+ color: #092a4b;
+
+}
+.cards
+{
+    display: grid;
+    gap: 15px;
+}
+
+.card
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,.20);
+    border:2px solid #B0D6E3;
+    transition: .3s;
+
+}
+
+.card:hover{
+    transform: translateY(-6px);
+        box-shadow: 0 5px 15px rgba(0,0,0,.20);
+
+}
+
+h5
+{
+    color: #215171;
+ }  
+
+
+a
+{
+     color: #011d30;
+     text-decoration:none ;
+}
+
+
+button
+{
+
+    background-color: white;
+    color: #215171;
+}
+button:hover{
+   background:#6398d5;
+  
+}
+
+

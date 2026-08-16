@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#F4F8FA;
+    color:#333;
+}
+
+
+h1{
+    background-color:#215171;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-bottom:30px;
+}
+
+
+.box{
+    width:700px;
+    margin:30px auto;
+    background-color:white;
+    border:2px solid #B0D6E3;
+    border-radius:8px;
+    padding:25px;
+    
+}
+
+
+table{
+    width:100%;
+}
+
+
+th{
+    color:#215171;
+    text-align:left;
+}
+
+td{
+    padding:10px;
+}
+
+
+input{
+    width:100%;
+    padding:8px;
+    border:1px solid #B0D6E3;
+    border-radius:5px;
+    outline:none;
+}
+
+input:focus{
+    border:2px solid #215171;
+}
+
+button[type="submit"]{
+    background-color:#B0D6E3;
+    color:#215171;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button[type="submit"]:hover{
+    background-color:#215171;
+    color:white;
+}
+
+
+h5 button{
+    background-color:#B0D6E3;
+    border:none;
+    padding:8px 18px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+h5 button a{
+    text-decoration:none;
+    color:#215171;
+    font-weight:bold;
+}
+
+h5 button:hover{
+    background-color:#215171;
+}
+
+h5 button:hover a{
+    color:white;
+}
+
+h5{
+    margin-top:20px;
+    color:#215171;
+}

@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef4f8;
+}
+
+
+
+header{
+    background:#215171;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+
+
+nav{
+    background:#c8e2eb;
+    text-align:center;
+    padding:15px;
+}
+
+nav button{
+    background:white;
+    border:1px solid #215171;
+    padding:10px 18px;
+    margin:5px;
+    border-radius:5px;
+}
+
+nav button:hover{
+    background:#215171;
+}
+
+nav button:hover a{
+    color:white;
+}
+
+nav a{
+    text-decoration:none;
+    color:#215171;
+    font-weight:bold;
+}
+
+
+
+main{
+    width:90%;
+    margin:auto;
+    padding:30px 0;
+}
+
+
+
+.welcome {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* Hero Section */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Text Box on Image */
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+
+    width: 320px;
+    padding: 30px;
+
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+}
+
+
+.hero-text h2 {
+    color: #215171;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.hero-text p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+/* Get Started Button */
+
+.get-started {
+    display: inline-block;
+
+    background: #215171;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+
+.get-started:hover {
+    background: #17384d;
+}
+
+
+/* Welcome Information */
+
+.welcome-info {
+    margin: 40px auto 10px;
+
+    width: 85%;
+
+    background: white;
+
+    padding: 25px;
+
+    border: 2px solid #215171;
+
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+
+.welcome-info h2 {
+    color: #215171;
+    margin-bottom: 18px;
+}
+
+
+.welcome-info p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.services{
+    margin-bottom:30px;
+}
+
+.services h2{
+    color:#215171;
+    margin-bottom:20px;
+}
+
+.service-box{
+    display:flex;
+    justify-content:space-between;
+}
+
+.box{
+    width:30%;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.box h3{
+    color:#215171;
+    margin-bottom:10px;
+}
+
+.announcement{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+}
+
+.announcement h2{
+    color:#215171;
+    margin-bottom:15px;
+}
+
+.announcement ul{
+    margin-left:20px;
+}
+
+.announcement li{
+    margin-bottom:10px;
+}
+
+
+
+footer{
+    background:#215171;
+    color:white;
+    text-align:center;
+    padding:18px;
+    margin-top:30px;
+}
+
+.dashboard-btn{
+    background:#215171;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:6px;
+    font-size:17px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.dashboard-btn:hover{
+    background:#17384d;
+}
+
+ 

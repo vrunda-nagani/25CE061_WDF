@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f8fa;
+    color: #333;
+}
+
+header {
+    background: #0f4c81;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+nav {
+    background: #dcecf3;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0f4c81;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+main > h2 {
+    color: #0f4c81;
+    margin-bottom: 20px;
+}
+
+.student-info {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.student-info p {
+    margin: 8px 0;
+}
+
+.result-section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.result-section h3 {
+    color: #0f4c81;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #0f4c81;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background: #f1f7fa;
+}
+
+.summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.summary div {
+    background: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.summary h3 {
+    color: #0f4c81;
+    margin-bottom: 10px;
+}
+
+h5 a
+{
+color: #215171;
+}
